@@ -1,9 +1,9 @@
-PROJECT TITLE
+## PROJECT TITLE
 
 Taiwan Bankruptcy Prediction Model
 
 
-PROBLEM STATEMENT
+## PROBLEM STATEMENT
 
 Predict whether a company will go bankrupt based on financial indicators.
 
@@ -17,14 +17,14 @@ Cash flow ratios were strong predictors.
 Financial leverage was an important risk factor.
 
 
-MODEL USED
+## MODEL USED
 
 RandomForestClassifier
 
 GridSearchCV for tuning
 
 
-MODEL PERFORMANCE
+## MODEL PERFORMANCE
 
 Accuracy: %
 
