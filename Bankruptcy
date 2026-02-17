@@ -1,0 +1,68 @@
+# Taiwan Bankruptcy Prediction Project from Worldquant university
+
+## 📌 About This Project
+
+This project is a Machine Learning model that predicts whether a company will go bankrupt based on financial data.
+
+The dataset contains financial information about Taiwanese companies and a target column called **bankrupt**:
+- 0 → Company is not bankrupt
+- 1 → Company is bankrupt
+
+This project demonstrates a complete ML workflow from data loading to model deployment.
+
+---
+
+## 🧠 What I Did
+
+In this project, I:
+
+✔ Loaded compressed JSON data  
+✔ Cleaned and prepared the dataset  
+✔ Checked for missing values  
+✔ Visualized class imbalance  
+✔ Split data into training and test sets  
+✔ Handled imbalanced data using over-sampling  
+✔ Trained a Random Forest model  
+✔ Tuned hyperparameters using GridSearchCV  
+✔ Evaluated the model using confusion matrix and classification report  
+✔ Saved the trained model  
+✔ Created a prediction function for deployment  
+
+---
+
+## 📊 Model Used
+
+- RandomForestClassifier
+- Cross-validation (5 folds)
+- GridSearchCV for tuning
+
+---
+
+## 📈 Model Evaluation
+
+The model was evaluated using:
+- Confusion Matrix
+- Classification Report
+- Accuracy
+
+---
+
+## 🚀 Deployment
+
+I created a Python module:
+
+`my_predictor_assignment.py`
+
+It contains:
+- `wrangle()` → loads and prepares new data
+- `make_predictions()` → loads the saved model and returns predictions
+
+Example:
+
+```python
+from my_predictor_assignment import make_predictions
+
+y_pred = make_predictions(
+    data_filepath="data/taiwan-bankruptcy-data-test-features.json.gz",
+    model_filepath="model-5-5.pkl"
+)
