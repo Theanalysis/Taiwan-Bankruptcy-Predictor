@@ -1,0 +1,1 @@
+In this assignment project , I followed a full ML workflow: from importing data to training, tuning (4 grid search combinations, \~58s), and deploying a model. Key tasks include visualizing class imbalance, evaluating performance with confusion matrices and classification reports, and creating a deployable prediction function in my_predictor_assignment.py
