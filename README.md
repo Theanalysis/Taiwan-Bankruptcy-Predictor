@@ -1,12 +1,14 @@
-📌 Project Title
+PROJECT TITLE
 
 Taiwan Bankruptcy Prediction Model
 
-🎯 Problem Statement
+
+PROBLEM STATEMENT
 
 Predict whether a company will go bankrupt based on financial indicators.
 
-📊 Key Findings
+
+Findings
 
 Companies with low retained earnings had higher bankruptcy risk.
 
@@ -14,13 +16,15 @@ Cash flow ratios were strong predictors.
 
 Financial leverage was an important risk factor.
 
-🧠 Model Used
+
+MODEL USED
 
 RandomForestClassifier
 
 GridSearchCV for tuning
 
-📈 Model Performance
+
+MODEL PERFORMANCE
 
 Accuracy: %
 
