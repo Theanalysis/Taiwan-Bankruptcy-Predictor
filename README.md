@@ -1,1 +1,29 @@
-In this assignment project , I followed a full ML workflow: from importing data to training, tuning (4 grid search combinations, \~58s), and deploying a model. Key tasks include visualizing class imbalance, evaluating performance with confusion matrices and classification reports, and creating a deployable prediction function in my_predictor_assignment.py
+📌 Project Title
+
+Taiwan Bankruptcy Prediction Model
+
+🎯 Problem Statement
+
+Predict whether a company will go bankrupt based on financial indicators.
+
+📊 Key Findings
+
+Companies with low retained earnings had higher bankruptcy risk.
+
+Cash flow ratios were strong predictors.
+
+Financial leverage was an important risk factor.
+
+🧠 Model Used
+
+RandomForestClassifier
+
+GridSearchCV for tuning
+
+📈 Model Performance
+
+Accuracy: %
+
+Recall (Bankruptcy class): %
+
+Precision: %
